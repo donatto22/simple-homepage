@@ -1,0 +1,42 @@
+:root {
+    --dinamic-menu-width: 340px;
+}
+
+#header {
+    width: 80%;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+}
+
+#header-img {
+    width: 160px;
+}
+
+#header-left {
+    display: flex;
+    align-items: center;
+    width: var(--dinamic-menu-width);
+}
+
+#header-right {
+    display: flex;
+    width: calc(100% - var(--dinamic-menu-width));
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 2em;
+}
+
+.header-links a {
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.link-active {
+    color: var(--text-color) !important;
+}

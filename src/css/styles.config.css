@@ -1,0 +1,55 @@
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Normalize */
+@import url("./normalize.css");
+
+:root {
+    --blue: #2A4DD0;
+    --green: #4CA154;
+    --gray: #909193;
+    --text-color: #223344;
+    --bg-color: #F2F9FE;
+    --text-color2: #909193;
+    --menu-color: #FFFFFF;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg-color);
+}
+
+img {
+    width: 100%;
+    pointer-events: none;
+    vertical-align: middle;
+}
+
+a, li, ul, ol {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    cursor: pointer !important;
+    width: fit-content;
+}
+
+label {
+    display: block;
+}
+
+input {
+    outline: none;
+    display: block;
+}
+
+[data-theme = "dark"] {
+    --bg-color: #111729;
+}
