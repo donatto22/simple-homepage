@@ -3,14 +3,14 @@
 }
 
 #header {
-    width: 80%;
+    width: 86%;
     margin: 0 auto;
     height: 80px;
     display: flex;
 }
 
 #header-img {
-    width: 160px;
+    width: 170px;
 }
 
 #header-left {

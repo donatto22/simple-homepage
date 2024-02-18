@@ -1,0 +1,41 @@
+#content {
+    display: flex;
+    width: 86%;
+    margin: 4em auto 0;
+    justify-content: space-between;
+}
+
+#content > div {
+    width: 40%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.min-text {
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.giant-text {
+    font-size: 3.75rem;
+    font-weight: bold;
+    color: var(--title-color);
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.content-description {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.content-actions {
+    display: flex;
+    gap: 1em;
+}
+
+.underline {
+    box-shadow: 0 2px 0px var(--blue);
+}

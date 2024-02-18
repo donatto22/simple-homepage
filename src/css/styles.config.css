@@ -12,6 +12,7 @@
     --bg-color: #F2F9FE;
     --text-color2: #909193;
     --menu-color: #FFFFFF;
+    --title-color: #111729;
 }
 
 html, body {
@@ -52,4 +53,23 @@ input {
 
 [data-theme = "dark"] {
     --bg-color: #111729;
+}
+
+.button {
+    padding: 1em 2em;
+    border-radius: 10px;
+    border: 0;
+    background-color: none;
+}
+
+.button-primary {
+    background-color: var(--blue);
+    color: white;
+    font-weight: 500;
+}
+
+.button-ghost {
+    background-color: transparent;
+    color: var(--blue);
+    font-weight: bold;
 }
